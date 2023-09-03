@@ -11,7 +11,7 @@ module.exports = {
         node: true
       },
       files: [
-        '.eslintrc.{js,cjs}'
+        '.eslintrc.{js,cjs}', 'vite.config.ts'
       ],
       parserOptions: {
         parser: '@typescript-eslint/parser',
