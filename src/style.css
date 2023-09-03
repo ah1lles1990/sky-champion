@@ -1,0 +1,79 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100dvh;
+  overscroll-behavior: contain;
+}
+
+#app {
+  min-height: 100dvh;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 1280px;
+  min-height: 100dvh;
+}
+.control-holder {
+  /* position: fixed; */
+  border-radius: 50%;
+  border: 2px solid #eee;
+  width: 100px;
+  height: 100px;
+}
+.control-circle {
+  position: fixed;
+  background-color: #eee;
+  width: 40px;
+  height: 40px;
+  top: 0;
+  left: 0;
+  /* margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; */
+  border-radius: 50%;
+}
+
+/* @media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
