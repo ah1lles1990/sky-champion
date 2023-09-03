@@ -13,7 +13,6 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-
 a {
   font-weight: 500;
   color: #646cff;
@@ -22,18 +21,15 @@ a {
 a:hover {
   color: #535bf2;
 }
-
 body {
   margin: 0;
   min-width: 320px;
   min-height: 100dvh;
   overscroll-behavior: contain;
 }
-
 #app {
   min-height: 100dvh;
 }
-
 .wrapper {
   display: flex;
   justify-content: center;
