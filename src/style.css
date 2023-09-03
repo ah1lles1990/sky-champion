@@ -44,7 +44,6 @@ body {
   min-height: 100dvh;
 }
 .control-holder {
-  /* position: fixed; */
   border-radius: 50%;
   border: 2px solid #eee;
   width: 100px;
