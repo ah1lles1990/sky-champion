@@ -1,5 +1,5 @@
 import './style.css'
-import { setupControl } from './counter.ts'
+import { setupControl } from './setupControl.ts'
 
 const root = document.querySelector<HTMLDivElement>('#app')
 
